@@ -2,23 +2,27 @@
     background-color:rgb(225, 231, 231);
 
 }
+.logo{
+    width: 35px;
+    height: 30px;
+
+}
 .size img{
     max-width: 50%;
     max-height: 50%;
     
 }
 .button-size{
-    width: 180px;
-    height: 55px;
-    border-radius: 20px;
-    font-size: 15px;
-    justify-content: flex-end;
+    color: white;
     background-color: coral;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
     border: 0;
 }
 .button-footer{
     justify-content: space-between;
-
+    background-color: white;
 }
 .box img{
     float:left;
@@ -59,7 +63,6 @@
     color: rgb(20, 37, 8) ;
     width: 500px;
 }
-
 
 
 

@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="container back-bg ">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand size" href="#">
                   <img src="images/Logo, Icon/Logo.png" alt="">
@@ -36,22 +36,20 @@
             </div>
           </nav>
           <div>
-          <figure class="figure">
-              <div class="row d-flex align-items-center p-5">
-                  <div class="col-md-6">
-                    <img src="images/Photos/Group 33092.png" class="figure-img img-fluid rounded" alt="...">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row d-flex align-items-center p-5">
+                    <div class="col-md-6">
+                      <img src="images/Photos/Group 33092.png" class="d-block w-100" alt="...">
                   </div>
-                  <div class="col-md-6 fs-1">
-                      <div class="text-danger">
-                      <h1> Nike React </h1>
+                      <div class="col-md-6">
+                        <h1 class="text-danger">Nike React </h1>
+                          <h1>Infinity Run 2</h1>
+                          <p>This is the best beg in the world.You can try it.I think you love it very much.</p>
+                          <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
                       </div>
-                      <h1>Infinity Run 2</h1>
-                      <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
-                      <button class="button-size"><i class="bi bi-cart"></i>BUY NOW</button>
                   </div>
               </div>
-            <figcaption class="figure-caption"></figcaption>
-          </figure>
           </div>
     </header>
           
@@ -60,7 +58,7 @@
             <h1>CASUAL SHOES</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
-                <div class="card h-100 shadow">
+                <div class="card shoe h-100 shadow">
                   <img src="images/Photos/image 5.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Nike Shoe</h5>
@@ -68,7 +66,7 @@
                   </div>
                   <div class="d-flex button-footer">
                   <h3>$234</h3>
-                   <button class="button-size">BUY NOW</button>
+                   <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i> BUY NOW</button>
                    
                     </div>
                 </div>
@@ -82,7 +80,7 @@
                   </div>
                   <div class="d-flex button-footer">
                       <h3>$234</h3>
-                      <button class="button-size">BUY NOW</button>
+                      <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
                       </div>
                 </div>
               </div>
@@ -95,7 +93,7 @@
                   </div>
                   <div class="d-flex button-footer">
                       <h3>$234</h3>
-                      <button class="button-size">BUY NOW</button>
+                      <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
                   </div>
                 </div>
               </div>
@@ -113,7 +111,7 @@
                   </div>
                   <div class="d-flex button-footer">
                       <h3>$234</h3>
-                      <button class="button-size">BUY NOW</button>
+                      <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
                   </div>
                 </div>
               </div>
@@ -126,7 +124,7 @@
                   </div>
                   <div class="d-flex button-footer">
                       <h3>$234</h3>
-                      <button class="button-size">BUY NOW</button>
+                      <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
                   </div>
                 </div>
               </div>
@@ -139,7 +137,7 @@
                   </div>
                   <div class="d-flex button-footer">
                       <h3>$234</h3>
-                      <button class="button-size">BUY NOW</button>
+                      <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
                   </div>
                 </div>
               </div>
@@ -147,7 +145,7 @@
         </section>
 
         <section class="mt-5">
-          <div class="d-flex">
+          <div class="d-flex row g-5">
             <div class="col-md-6">
               <div class="card mb-3 b-size" style="max-width: 540px;">
                 <div class="row shadow overall-size g-0">
@@ -197,12 +195,71 @@
           </div>
         </section>
 
+        <section>
+          <div id="carouselExampleControls" class="carousel slide panda-slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row d-flex align-items-center bg-light p-5">
+                        <div class="col-md-7">
+                            <h1>Nike Shoe</h1>
+                            <p>Lorem Ipsum is simply dummy text of the 
+
+                              printing and typesetting industry.</p>
+                            <h3>$234</h3>
+                            <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
+
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/Photos/image 5.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center bg-light p-5">
+                        <div class="col-md-7">
+                            <h1>Prestige High-Cut Leather </h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h3>$234</h3>
+                            <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
+
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/Photos/Mask Group.png" class="d-block w-100" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center bg-light p-5">
+                        <div class="col-md-7">
+                            <h1>Sneakers Basketball shoe</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h3>$234</h3>
+                            <button class="button-size"><i><img class="logo" src="images/Logo, Icon/shopping-cart 1.png" alt=""></i>BUY NOW</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/Photos/pngegg 1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        </section>
+
         <section id="contact-us" style="height: 300px;" class="bg-info mt-5 d-flex align-items-center justify-content-center">
           <div>
               <h1>LET'S STAY IN TOUCH</h1>
               <H6>Get updates on sales, specials and more</H6>
               <input type="text" placeholder="Enter Your Email Address">
-              <button class="end">SUBMIT</button>
+              <button class="button-size">SUBMIT</button>
           </div>
       </section>
       <footer class="d-flex justify-content-center mt-5">
